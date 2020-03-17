@@ -1,18 +1,19 @@
 body {
     background-image: url("pics/image1.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 header {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
+    font-weight: 400;
 }
 
 header:hover {
-    color:#190b8f;
+    color:orange;
 }
 
 p {
@@ -20,18 +21,29 @@ p {
     margin: 0.5em;
 }
  .info {
-     width: 900px;
+     width: 1100px;
      position: absolute;
-     top: 800px;
-     left: 550px;
+     top: 650px;
+     left: 300px;
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
  }
 
  #title {
-     font-size: 35px;
+     font-size: 25px;
  }
 
  #statement {
-     font-size: 25px;
+     font-size: 15px;
+ }
+
+ button {
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ button:hover {
+     color: grey;
  }
