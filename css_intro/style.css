@@ -1,0 +1,32 @@
+h1 {
+    color: red; 
+    font-size: 3em;
+}
+
+h1:hover {
+    color: purple;
+}
+
+a:visited {
+    color: gold;
+}
+
+p{
+    background-color: #61e1dc;
+}
+
+#about-me {
+    color: blue;
+}
+
+.nav-home {
+    color: orange;
+}
+
+.bold  {
+    font-weight: bold; /* makes a font bold*/
+}
+/* apply to all para that are children of section*/
+section p { 
+    font-size: 2em;
+}
